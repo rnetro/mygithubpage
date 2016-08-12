@@ -2,7 +2,7 @@ myID = document.getElementById("myID");
 
 var myScrollFunc = function() {
   var y = window.scrollY;
-  if (y > 0 && y <= 50) {
+  if (y > 10 && y <= 50) {
     myID.className = "sun pt1"
   } 
   else if (y>50 && y<150) {
