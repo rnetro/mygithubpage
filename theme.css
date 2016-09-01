@@ -76,18 +76,21 @@ li {
 
 
 #myID {
-    height: 500px;
-    margin-left: 10%;
-    margin-top: 30%;
+    height: 800px;
 }
 
 .sun {
+  max-width:100%;
+  max-height:100%;
+  margin-top: 15%;
+  margin-left: 10%;
   position: fixed;
   width: 100%;
   z-index: 1;
   transition: all 2s;
   vertical-align: middle;
   display: block;
+  overflow-y: show;
   background-repeat: no-repeat;
 }
 
