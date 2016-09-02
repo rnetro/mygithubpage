@@ -10,6 +10,7 @@ body {
         margin: 0px;
         height: 200%;
         width: 100%;
+        transition: all 2s;
 }
 
 body {
@@ -56,6 +57,7 @@ li {
 		padding: 1px;
 		margin: 0 10px 10px 0;
         vertical-align: middle;
+        transition: all 1s ease-in-out;
 }
 
 	
@@ -94,14 +96,24 @@ li {
   background-repeat: no-repeat;
 }
 
+.scroll {
+  display: none;
+}
+
+.scroll.none {
+  display: block;
+}
 .sun.pt1 {
   background-image: url(images/petals.png);
+  transition: all 2s;
 }
 
 .sun.pt2 {
   background-image: url(images/sunflower.png);
+  transition: all 2s;
 }
 
+/*
 .sun.pt3 {
   background-image: url(images/sunflower.png);
 }
@@ -113,6 +125,7 @@ li {
 .sun.pt5 {
   background-image: url(images/sunflower.png);
 }
+*/
 
 .show {
   opacity: 1;
@@ -122,6 +135,7 @@ li {
 .none {
     opacity: 0;
     left: -100%;
+    transition: all 3s;
 }
 
 
